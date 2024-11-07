@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея изображений</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Галерея изображений</h1>
+    <div id="gallery" class="gallery">
+        <img class="gallery__image" src="https://i1.sndcdn.com/artworks-kdJRcf6aoYTLDrkM-10rCbQ-t500x500.jpg" alt="Image 1">
+        <img class="gallery__image" src="https://cybersport.metaratings.ru/storage/images/33/9b/339b68ac677a86bada920aaa755a315a.png" alt="Image 2">
+        <img class="gallery__image" src="https://www.1rnd.ru/upload/resize_cache/iblock/5ed/884_500_1/eaojduhpng1h070pkur47zvgucxlrgbw.png" alt="Image 3">
+    </div>
+    <div id="fullViewContainer" class="full-view" style="display: none;">
+        <button id="fullViewCloseButton" class="full-view__close-button">Закрыть</button>
+        <img id="fullViewImage" src="" alt="Увеличенное изображение">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
